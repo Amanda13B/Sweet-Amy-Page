@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------Header-------------------*/
+
+.header-bar{
+    background: #F64F63;
+    position: relative;
+}
+
+.logo-image{
+    display: inline-block;
+    width: 10%;
+    margin-left: 5%;
+}
+
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+
+
+li{
+    display: inline;
+    font-size: 1.3em;
+    color: white;
+    margin: 0 15px;
+}
+
+/*---------------Quem Somos-------------------*/
+
+.quem-somos h1{
+    text-align: center;
+    margin: 5% auto;
+}
+
+.quem-somos-img{
+    display: inline-block;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.quem-somos p{
+    display: inline;
+    vertical-align: middle;
+}
