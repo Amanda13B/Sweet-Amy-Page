@@ -10,6 +10,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     </head>
 
     <body>
@@ -20,9 +22,9 @@
     
                 <nav>
                     <ul>
-                        <li>Quem somos</li>
-                        <li>Nossos doces</li>
-                        <li>Contato</li>
+                        <li><a href="#quem-somos">Quem somos</a></li>
+                        <li><a href="#nossos-doces">Nossos doces</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
             </section>
@@ -31,14 +33,61 @@
         </header>
 
         <main>
-            <section class="quem-somos">
-                <h1>Quem somos</h1>
+            <section id="quem-somos">
+                <h1 class="titulo-principal">Quem somos</h1>
 
                 <img src="./Images/Quem somos.png" alt="Imagem sobre quem somos" class="quem-somos-img">
 
                 <p>Somos uma doceria gourmet localizada em Campinas/SP. Acreditamos que um docinho pode fazer os momentos serem mais especiais, por isso, oferecemos algumas variedades com preços acessíveis para que todo mundo possa partilhar desses momentos.</p>
             </section>
+
+            <section id="nossos-doces">
+                <h1 class="titulo-principal">Nossos doces</h1>
+
+                <div class="cartoes">
+                    <div class="cartao-doce">
+                        <img src="./Images/coracoes_lapidados_inteiros.png" alt="Corações lapidados de chocolate">
+                        <h2 class="titulo-cartao">Coração Lapidado</h2>
+                    </div>
+    
+                    <div class="cartao-doce">
+                        <img src="./Images/trufas_todas.png" alt="Trufas de chocolate">
+                        <h2 class="titulo-cartao">Trufas</h2>
+                    </div>
+    
+                    <div class="cartao-doce">
+                        <img src="./Images/pao-de-mel.png" alt="Pão de mel">
+                        <h2 class="titulo-cartao">Pão de Mel</h2>
+                    </div>
+    
+                    <div class="cartao-doce">
+                        <img src="./Images/ursinhos.jpg" alt="Ursinho de chocolate">
+                        <h2 class="titulo-cartao">Ursinho de chocolate</h2>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="contato">
+                <h1 class="titulo-principal"> Contato </h1>
+
+                <div class="links-contatos">
+                    <a href="https://www.instagram.com/sweetamydoceria/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5519993160575"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </section>
         </main>
+
+        <footer>
+            <div class="imagem-footer">
+                <img src="./Images/Logotipo.png" alt="logotipo Sweet Amy" class="logo-image">
+            </div>
+
+            <div class="copyright">
+                <p>© Copyright Sweet Amy - 2023</p>
+            </div>
+        </footer>
     </body>
 
 </html>

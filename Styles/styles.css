@@ -22,6 +22,11 @@ nav{
     top: 50%;
 }
 
+a{
+    font-style: none;
+    color: white;
+}
+
 
 li{
     display: inline;
@@ -30,20 +35,110 @@ li{
     margin: 0 15px;
 }
 
+/*------Títulos-------*/
+
+.titulo-principal{
+    text-align: center;
+    margin: 0 auto 5% auto;
+    padding-top: 5%;
+}
+
+.titulo-cartao{
+    margin: 10% 0;
+    color: #36B7F5;
+    font-size: 1.3em;
+}
+
 /*---------------Quem Somos-------------------*/
 
-.quem-somos h1{
-    text-align: center;
-    margin: 5% auto;
+#quem-somos h1{
+    color: #36B7F5;
 }
 
 .quem-somos-img{
     display: inline-block;
-    width: 30%;
+    width: 25%;
     margin-left: 10%;
+    float: left;
 }
 
-.quem-somos p{
-    display: inline;
-    vertical-align: middle;
+#quem-somos p{
+    display: inline-block;
+    width: 40%;
+    margin: 10% 0 0 10%;
+    line-height: 1.5em;
+    color: rgb(68, 68, 68);
+}
+
+/*---------------Nossos Doces-------------------*/
+
+#nossos-doces{
+    background: #A82534;
+    margin-top: 20%;
+}
+
+#nossos-doces h1{
+    color: white;
+    padding: 5% 0 3% 0;
+}
+
+.cartoes{
+    text-align: center;
+}
+
+.cartao-doce{
+    display: inline-block;
+    border: #36B7F5 solid 5px;
+    padding: 15px;
+    background: white;
+    border-radius: 9px;
+    margin: 0 50px 10% 50px;
+    box-shadow: 10px 10px 10px #70121d ;
+}
+
+.cartao-doce img{
+    width: 300px;
+}
+
+/*---------------Contato-------------------*/
+#contato{
+    margin: 0;
+    background: linear-gradient(#A82534 10%, #F64F63);
+}
+
+#contato h1{
+    color: white;
+}
+
+.links-contatos{
+    text-align: center;
+    padding: 0 0 8% 0;
+}
+
+.links-contatos i{
+    font-size: 3em;
+    margin: 0 50px;
+    padding-top: 5%;
+    transition: 1s;
+}
+
+.links-contatos i:hover{
+    font-size: 4em;
+}
+
+/*---------------Footer-------------------*/
+footer{
+    background-color: #F64F63;
+}
+
+.imagem-footer{
+    text-align: center;
+    padding-right: 5%;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 0 3% 0;
 }
