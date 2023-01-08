@@ -142,3 +142,72 @@ footer{
     font-size: 0.9em;
     padding: 10px 0 3% 0;
 }
+
+/*---------------Responsividade mobile-------------------*/
+@media screen and (max-width: 480px){
+    header, main, #quem-somos, #nossos-doces, #contato, footer {
+        width: auto;
+    }
+
+    .header-bar{
+        padding-bottom: 8%;
+        position: static;
+    }
+
+    .logo-image{
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    nav{
+        position: static;
+        width: auto;
+        padding-left: 15px;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    li{
+        font-size: 1em;
+        margin: 0 8px;
+    }
+
+    .titulo-principal{
+        font-size: 1.3em;
+    }
+
+    .titulo-cartao{
+        font-size: 1.1em;
+    }
+
+    .quem-somos-img{
+        display: block;
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    #quem-somos p{
+        display: inline-block;
+        width: auto;
+        padding-right: 6%;
+        line-height: 1.5em;
+        text-align: center;
+    }
+
+    .cartao-doce{
+        width: 50%;
+    }
+
+    .cartao-doce img{
+        width: 100px;
+    }
+
+    .links-contatos i{
+        font-size: 2em;
+        margin: 0 25px;
+    }
+}
